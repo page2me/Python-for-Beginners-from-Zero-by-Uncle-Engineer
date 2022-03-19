@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from turtle import *
 import time
 import math
@@ -33,7 +31,9 @@ def star(n, a=200, zaklad=100):
         left(uhel2)
         
 speed(0)
+hideturtle()
 penup()
 goto(-500, +270)
 pendown()
 star(20, 50, 50)
+exitonclick()

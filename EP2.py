@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from turtle import *
 import time
 import math
@@ -31,7 +29,14 @@ def star(n, a=200, zaklad=100):
         right(uhel1)
         forward(a)
         left(uhel2)
+
+speed(0)
+hideturtle()
+penup()
+goto(-500, +370)
+pendown()
+
 for i in range(3, 10):
-    hideturtle()
-    speed(0)
-    polygon(i)
+    polygram(i)
+
+exitonclick()
