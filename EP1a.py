@@ -1,0 +1,5 @@
+speed(0)
+penup()
+goto(-500, +270)
+pendown()
+star(20, 50, 50)
